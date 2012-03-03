@@ -3,4 +3,7 @@ describe("sanity js", function() {
     expect(2).toEqual(2);
   });
 
+  it("says hello", function() {
+    expect(helloWorld()).toEqual("Hello world!");
+  });
 }); 
