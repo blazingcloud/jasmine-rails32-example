@@ -2,3 +2,15 @@
 
 http://www.derekhammer.com/2012/02/18/testing-coffeescript-for-rails-with-jasmine.html
 http://evanhahn.com/?p=181
+
+
+https://github.com/netzpirat/guard-jasmine
+brew install phantomjs
+
+(I got a "SHA1 mismatch" error, fixed with
+  brew update
+  brew install phantomjs
+
+
+add jasmine-guard to Gemfile
+bundle exec guard init jasmine

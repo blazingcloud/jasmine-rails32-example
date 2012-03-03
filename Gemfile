@@ -9,6 +9,7 @@ gem 'sqlite3'
 
 group :development, :test do
   gem "jasminerice"
+  gem "guard-jasmine"
 end
 
 
